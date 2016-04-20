@@ -9,7 +9,6 @@
   </parent>
   <groupId>project.ulife</groupId>
   <artifactId>com.goscam.ulife.app</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>com.goscam.ulife.app Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -21,9 +20,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    	<groupId>org.jasig.springframework</groupId>
-    	<artifactId>spring-test-contrib</artifactId>
-    	<version>1.2.0</version>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aop</artifactId>
+    	<version>4.2.5.RELEASE</version>
     </dependency>
   </dependencies>
   <build>
