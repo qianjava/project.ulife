@@ -20,6 +20,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>org.jasig.springframework</groupId>
+    	<artifactId>spring-test-contrib</artifactId>
+    	<version>1.2.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>com.goscam.ulife.app</finalName>
